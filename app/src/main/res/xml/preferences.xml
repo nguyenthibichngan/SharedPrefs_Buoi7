@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--below line is to create preference category-->
+    <PreferenceCategory android:title="Setting">
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="remember_choice"
+            android:title="Remember?" />
+    </PreferenceCategory>
+</PreferenceScreen>
